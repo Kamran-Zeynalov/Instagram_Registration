@@ -1,0 +1,115 @@
+body {
+    background-color: #ececec;
+
+    .window {
+        width: 100%;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+
+        .registr {
+            border: 2px solid lightgray;
+            background-color: white;
+            text-align: center;
+
+            .caption {
+                width: 350px;
+
+                .image {
+                    margin-top: 60px;
+                }
+
+                .text {
+                    h3 {
+                        width: 70%;
+                        margin: 0 auto;
+                        font-weight: 100;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        color: gray;
+                    }
+                }
+
+                .button-icon {
+                    margin-top: 20px;
+
+                    button {
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 10px;
+                        background-color: #0095f6;
+                        width: 250px;
+                        height: 35px;
+                        transition: .2s;
+                        &:hover{
+                            background-color: #0074cc;
+                        }
+                        .icon {
+                            color: white;
+                            display: inline-block;
+                            position: relative;
+                            bottom: 3px;
+                            right: 3px;
+
+                            i {
+                                font-size: 18px;
+                            }
+                        }
+
+                        .facebook {
+                            position: relative;
+                            bottom: 5px;
+                            display: inline-block;
+                          
+                            p {
+                                font-weight: bold;
+                                font-size: 14px;
+                                color: white;
+                                display: inline-block
+                            }
+                        }
+                    }
+                }
+            }
+
+            .userInfo {
+                position: relative;
+                top: 20px;
+
+                form {
+                    input {
+                        border: 1px solid lightgray;
+                        display: block;
+                        padding: 10px;
+                        width: 83%;
+                        margin: 12px auto;
+                    }
+                    span{
+                         display: block;
+                        color: rgb(255, 2, 2);
+                        width: 70%;
+                        margin: 0 auto;
+                        font-size: 13px;
+                    }
+
+                    button {
+                        border: none;
+                        border-radius: 10px;
+                        display: block;
+                        padding: 10px;
+                        width: 90%;
+                        margin: 14px auto;
+                        background-color: #0095f6;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: bold;
+                        transition: .2s;
+                        &:hover{
+                            background-color: #0074cc;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
