@@ -9,7 +9,7 @@ btn.onclick = function () {
 
     if (name.length >= 3 && surname.length >= 3 && email != -1 && password.length >7) {
         window.open(
-            "https://www.google.com", "_blank");
+            "https://www.instagram.com/", "_blank");
         return true;
     }
     else if(name.length >= 3 && surname.length >= 3 && email == -1 && password.length <=7){
